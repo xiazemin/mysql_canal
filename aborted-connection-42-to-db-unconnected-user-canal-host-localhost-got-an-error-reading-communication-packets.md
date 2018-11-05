@@ -66,3 +66,9 @@ mysql&gt; FLUSH PRIVILEGES;
 
 Query OK, 0 rows affected \(0.02 sec\)
 
+mysql&gt; insert into didiorder\(order\_id,passenger\_id\) values\(12345678,34567\)\G
+
+Query OK, 1 row affected \(0.02 sec\)
+
+
+
