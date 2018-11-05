@@ -26,3 +26,11 @@ mysqld --user=root
 
 $sudo mysqld --user=root &
 
+2018-11-05T09:28:08.508685Z 0 \[Note\] Server socket created on IP: '::'.
+
+2018-11-05T09:28:08.577871Z 0 \[Note\] Event Scheduler: Loaded 0 events
+
+2018-11-05T09:28:08.578050Z 0 \[Note\] mysqld: ready for connections.
+
+Version: '5.7.13-log'  socket: '/usr/local/var/mysql/mysql.sock'  port: 3306  Homebrew
+
