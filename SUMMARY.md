@@ -13,4 +13,5 @@
 * [ClientExample](clientexample.md)
 * [clientreleases](clientreleases.md)
 * [Canal Kafka RocketMQ QuickStart](canal-kafka-rocketmq-quickstart.md)
+* [canal-go](canal-go.md)
 
