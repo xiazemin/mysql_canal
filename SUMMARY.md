@@ -16,4 +16,5 @@
 * [canal-go](canal-go.md)
 * [canal的配置加载方式](canalde-pei-zhi-jia-zai-fang-shi.md)
 * [整个流程](zheng-ge-liu-cheng.md)
+* [canal kafka](canal-kafka.md)
 
