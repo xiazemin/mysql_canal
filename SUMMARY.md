@@ -6,4 +6,5 @@
 * [ERROR 2002 \(HY000\): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' \(2\)](error-2002-hy000-cant-connect-to-local-mysql-server-through-socket-varlibmysqlmysqlsock-2.md)
 * [\[ERROR\] Fatal error: Please read "Security" section of the manual to find out how to run mysqld as root!](error-fatal-error-please-read-security-section-of-the-manual-to-find-out-how-to-run-mysqld-as-root.md)
 * [ERROR 2002 \(HY000\): Can't connect to local MySQL server through socket '/usr/local/var/mysql/mysql.sock' \(2\)](error-2002-hy000-cant-connect-to-local-mysql-server-through-socket-usrlocalvarmysqlmysqlsock-2.md)
+* [\[Note\] Access denied for user 'canal'@'localhost' \(using password: YES\)](note-access-denied-for-user-canallocalhost-using-password-yes.md)
 
