@@ -16,3 +16,5 @@ binlog-format = ROW \#选择row模式
 
 server\_id = 1 \#配置mysql replication需要定义，不能喝canal的slaveId重复
 
+
+
