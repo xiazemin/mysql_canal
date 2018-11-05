@@ -1,4 +1,4 @@
-https://github.com/alibaba/canal/wiki/ClientExample
+[https://github.com/alibaba/canal/wiki/ClientExample](https://github.com/alibaba/canal/wiki/ClientExample)
 
 直接使用canal.example工程
 
@@ -56,5 +56,69 @@ mvn archetype:generate -DgroupId=com.alibaba.otter -DartifactId=canal.sample
 
 1. 修改pom.xml，添加依赖
 
+4. 运行Client
 
+
+
+首先启动Canal Server，可参见QuickStart
+
+
+
+启动Canal Client后，可以从控制台从看到类似消息：
+
+
+
+empty count : 1
+
+empty count : 2
+
+empty count : 3
+
+empty count : 4
+
+此时代表当前数据库无变更数据
+
+
+
+5. 触发数据库变更
+
+
+
+mysql&gt; use test;
+
+Database changed
+
+mysql&gt; CREATE TABLE \`xdual\` \(
+
+    -&gt;   \`ID\` int\(11\) NOT NULL AUTO\_INCREMENT,
+
+    -&gt;   \`X\` timestamp NOT NULL DEFAULT CURRENT\_TIMESTAMP,
+
+    -&gt;   PRIMARY KEY \(\`ID\`\)
+
+    -&gt; \) ENGINE=InnoDB AUTO\_INCREMENT=3 DEFAULT CHARSET=utf8 ;
+
+Query OK, 0 rows affected \(0.06 sec\)
+
+mysql&gt; insert into xdual\(id,x\) values\(null,now\(\)\);Query OK, 1 row affected \(0.06 sec\)
+
+
+
+可以从控制台中看到：
+
+
+
+empty count : 1
+
+empty count : 2
+
+empty count : 3
+
+empty count : 4
+
+================&gt; binlog\[mysql-bin.001946:313661577\] , name\[test,xdual\] , eventType : INSERT
+
+ID : 4    update=true
+
+X : 2013-02-05 23:29:46    update=true
 
