@@ -8,4 +8,5 @@
 * [ERROR 2002 \(HY000\): Can't connect to local MySQL server through socket '/usr/local/var/mysql/mysql.sock' \(2\)](error-2002-hy000-cant-connect-to-local-mysql-server-through-socket-usrlocalvarmysqlmysqlsock-2.md)
 * [\[Note\] Access denied for user 'canal'@'localhost' \(using password: YES\)](note-access-denied-for-user-canallocalhost-using-password-yes.md)
 * [ERROR 1819 \(HY000\): Your password does not satisfy the current policy requirements](error-1819-hy000-your-password-does-not-satisfy-the-current-policy-requirements.md)
+* [canal成功](canalcheng-gong.md)
 
