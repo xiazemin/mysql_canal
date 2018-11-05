@@ -54,11 +54,13 @@ flush privileges;
 
 这样就可以解决上面的权限不足问题。
 
+mysql&gt; 2018-11-05T10:13:41.638582Z 49 \[Note\] Aborted connection 49 to db: 'unconnected' user: 'canal' host: 'localhost' \(Got an error reading communication packets\)
+
+2018-11-05T10:13:41.686713Z 50 \[Note\] Start binlog\_dump to master\_thread\_id\(50\) slave\_server\(1778384897\), pos\(mysql-bin.000003, 2115\)
+
 mysql&gt; GRANT ALL PRIVILEGES ON \*.\* TO 'canal'@'%' ;
 
 Query OK, 0 rows affected \(0.01 sec\)
-
-
 
 mysql&gt; FLUSH PRIVILEGES;
 
