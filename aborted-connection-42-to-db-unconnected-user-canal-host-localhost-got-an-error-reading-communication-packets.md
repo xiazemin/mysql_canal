@@ -72,3 +72,9 @@ Query OK, 1 row affected \(0.02 sec\)
 
 
 
+2018-11-05 18:13:00.836 \[destination = example , address = /127.0.0.1:3306 , EventParser\] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - prepare to find start position just show master status
+
+2018-11-05 18:13:41.626 \[destination = example , address = /127.0.0.1:3306 , EventParser\] WARN  c.a.o.c.p.inbound.mysql.rds.RdsBinlogEventParserProxy - find start position : EntryPosition\[included=false,journalName=mysql-bin.000003,position=2115,serverId=1,gtid=&lt;null&gt;,timestamp=1541412762000\]
+
+
+
