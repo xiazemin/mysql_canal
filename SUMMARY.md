@@ -11,4 +11,6 @@
 * [canal成功](canalcheng-gong.md)
 * [Aborted connection 42 to db: 'unconnected' user: 'canal' host: 'localhost' \(Got an error reading communication packets\)](aborted-connection-42-to-db-unconnected-user-canal-host-localhost-got-an-error-reading-communication-packets.md)
 * [ClientExample](clientexample.md)
+* [clientreleases](clientreleases.md)
+* [Canal Kafka RocketMQ QuickStart](canal-kafka-rocketmq-quickstart.md)
 
