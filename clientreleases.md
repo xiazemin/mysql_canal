@@ -8,5 +8,7 @@ CREATE TABLE \`xdual\` \( \`ID\` int\(11\) NOT NULL AUTO\_INCREMENT, \`X\` times
 
 Query OK, 0 rows affected \(0.03 sec\)
 
+insert into xdual\(id,x\) values\(null,now\(\)\);
 
+Query OK, 1 row affected \(0.01 sec\)
 
