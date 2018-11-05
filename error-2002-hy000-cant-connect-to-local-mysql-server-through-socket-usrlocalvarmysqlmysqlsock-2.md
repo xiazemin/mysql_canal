@@ -1,4 +1,4 @@
-$mysql -hlocalhost -uroot -p12345678
+$mysql -h localhost -uroot -p12345678
 
 mysql: \[Warning\] Using a password on the command line interface can be insecure.
 
