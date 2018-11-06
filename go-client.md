@@ -26,3 +26,9 @@ X : 2018-11-06 17:49:45  update= true
 
 ===没有数据了===
 
+ls /otter/canal/destinations/example
+
+\[running, cluster\]
+
+
+
