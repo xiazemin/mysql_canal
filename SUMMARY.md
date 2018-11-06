@@ -21,4 +21,5 @@
 * [使用canal-kafka实现数据库增量实时更新](shi-yong-canal-kafka-shi-xian-shu-ju-ku-zeng-liang-shi-shi-geng-xin.md)
 * [canal连接kafka实现实时同步mysql数据](canallian-jie-kafka-shi-xian-shi-shi-tong-bu-mysql-shu-ju.md)
 * [o.s.beans.GenericTypeAwarePropertyDescriptor - Invalid JavaBean property 'connectionCharset' being accessed!](osbeansgenerictypeawarepropertydescriptor-invalid-javabean-property-connectioncharset-being-accessed.md)
+* [ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set](error-comalibabadruidpooldruiddatasource-testwhileidle-is-true-validationquery-not-set.md)
 
