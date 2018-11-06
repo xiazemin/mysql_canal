@@ -62,5 +62,9 @@ httpmq.target\_ip=10.5.3.66 \# httpmq服务端 ip; httpmq.target\_port=1218 \# h
 
 httpmq.target\_deep= \# 同步到httpmq的队列名称规则：1、sync\_{项目名}{db}{table}; 2、sync\_{项目名}{db};1、sync{项目名}; 4、sync\_{db}\_{table}; 默认1；
 
-wget  https://github.com/sasou/syncClient/archive/1.1.2.zip
+wget  [https://github.com/sasou/syncClient/archive/1.1.2.zip](https://github.com/sasou/syncClient/archive/1.1.2.zip)
+
+Error: Unable to access jarfile syncClient.jar
+
+
 
