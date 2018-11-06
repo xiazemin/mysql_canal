@@ -18,4 +18,5 @@
 * [整个流程](zheng-ge-liu-cheng.md)
 * [canal kafka](canal-kafka.md)
 * [Aborted connection 139 to db](aborted-connection-139-to-db.md)
+* [使用canal-kafka实现数据库增量实时更新](shi-yong-canal-kafka-shi-xian-shu-ju-ku-zeng-liang-shi-shi-geng-xin.md)
 
