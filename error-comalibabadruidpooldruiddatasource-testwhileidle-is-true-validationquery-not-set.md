@@ -20,11 +20,13 @@ ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validation
 
 2018-11-06 11:30:02.222 \[main\] WARN  o.s.beans.GenericTypeAwarePropertyDescriptor - Invalid JavaBean property 'connectionCharset' being accessed! Ambiguous write methods found next to actually used \[public void com.alibaba.otter.canal.parse.inbound.mysql.AbstractMysqlEventParser.setConnectionCharset\(java.nio.charset.Charset\)\]: \[public void com.alibaba.otter.canal.parse.inbound.mysql.AbstractMysqlEventParser.setConnectionCharset\(java.lang.String\)\]
 
-
-
 2018-11-06 11:26:41.423 \[destination = example , address = /127.0.0.1:3306 , EventParser\] WARN  c.a.otter.canal.parse.inbound.mysql.tsdb.MemoryTableMeta - parse faield : alter database test character set utf8
 
 com.alibaba.fastsql.sql.parser.ParserException: syntax error, error in :' set utf8', expect =, actual null, pos 38, line 1, column 35, token IDENTIFIER utf8
 
-	at com.alibaba.fastsql.sql.parser.SQLParser.printError\(SQLParser.java:363\) ~\[fastsql-2.0.0\_preview\_644.jar:2.0.0\_preview\_644\]
+at com.alibaba.fastsql.sql.parser.SQLParser.printError\\(SQLParser.java:363\\) ~\\[fastsql-2.0.0\\_preview\\_644.jar:2.0.0\\_preview\\_644\\]
+
+
+
+
 
