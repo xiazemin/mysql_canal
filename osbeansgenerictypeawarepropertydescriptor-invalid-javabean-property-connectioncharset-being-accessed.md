@@ -30,3 +30,7 @@ show variables like 'character\_set\_%';
 
 8 rows in set \(0.00 sec\)
 
+alter database test character set utf8;
+
+Query OK, 1 row affected \(0.01 sec\)
+
