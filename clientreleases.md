@@ -12,3 +12,9 @@ insert into xdual\(id,x\) values\(null,now\(\)\);
 
 Query OK, 1 row affected \(0.01 sec\)
 
+
+
+$wget https://github.com/alibaba/canal/releases/download/canal-1.1.1/canal.example-1.1.1.tar.gz
+
+
+
