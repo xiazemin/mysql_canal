@@ -30,9 +30,13 @@ canal.instance.filter.black.regex=
 
 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
 
-
-
 Above is your instance config file, check if the settings are correct
 
+$sh bin/startup.sh
 
+cd to /Users/didi/canal/client/bin for workaround relative path
+
+LOG CONFIGURATION : /Users/didi/canal/client/bin/../conf/logback.xml
+
+client mode : Simple
 
