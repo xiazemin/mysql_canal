@@ -16,7 +16,5 @@ $wget [https://github.com/alibaba/canal/releases/download/canal-1.1.1/canal.exam
 
 mkdir   client
 
-tar -zxvf canal.example-1.1.1.tar.gz
-
-
+tar -zxvf canal.example-1.1.1.tar.gz 
 
