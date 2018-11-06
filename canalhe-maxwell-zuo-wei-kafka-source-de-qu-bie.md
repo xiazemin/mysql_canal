@@ -1,16 +1,10 @@
 阿里开源的Canal进行Mysql binlog数据的抽取，另需开发一个数据转换工具将从binlog中解析出的数据转换成自带schema的json数据并写入kafka中。而使用maxwell可直接完成对mysql binlog数据的抽取和转换成自带schema的json数据写入到kafka中。
 
-
-
 另外Maxwell作为kafka connector的话需要metric的东西也比较多，因此此处我的kafka Connect选择了Canal.
 
-
-
-实现Canal作为kafka的生产者，kafka作为消费者，还需要一个中间件。github上有给出这个，地址：https://github.com/sasou/syncClient
+实现Canal作为kafka的生产者，kafka作为消费者，还需要一个中间件。github上有给出这个，地址：[https://github.com/sasou/syncClient](https://github.com/sasou/syncClient)
 
 以下为运行步骤：
-
-
 
 首先配置Canal，下载deploy的tar包，可单机环境。下载解压后进行如下配置
 
@@ -32,11 +26,11 @@ $ vim /etc/mysql/my.cnf
 
 \[mysqld\]
 
-log-bin=mysql-bin \#添加这一行就ok    
+log-bin=mysql-bin \#添加这一行就ok
 
-binlog-format=ROW \#选择row模式    
+binlog-format=ROW \#选择row模式
 
-server\_id=1 \#配置mysql replaction需要定义，不能和canal的slaveId重复 
+server\_id=1 \#配置mysql replaction需要定义，不能和canal的slaveId重复
 
 注意完成后一定要重启mysql服务
 
@@ -44,15 +38,13 @@ $ service mysql stop
 
 $ service mysql start
 
-
-
 在mysql中添加Canal用户的权限
 
 canal的原理是模拟自己为mysql slave，所以这里一定需要做为mysql slave的相关权限
 
 在mysql&gt;下输入：
 
-CREATE USER canal IDENTIFIED BY 'canal';      
+CREATE USER canal IDENTIFIED BY 'canal';
 
 GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON \*.\* TO 'canal'@'%';
 
@@ -63,8 +55,6 @@ FLUSH PRIVILEGES;
 针对已有的账户可通过grants查询权限：
 
 show grants \*\*for\*\* 'canal';
-
-
 
 下载github上的syncClient
 
@@ -88,15 +78,25 @@ password=
 
 filter=
 
-
-
 \#kafka
 
 kafkaIp=127.0.0.1
 
 kafkaPort=9092
 
+注意这里的username，password和canal配置中的dbusername,dbpassword的区别。Canal配置中的dbusername,dbpassword是指canal读取mysql的binlog时的用户和密码，默认是canal,canal。但是这里的username和password是指canal自身的用户和密码（即连接到这个数据实时同步中间件时的用户和密码），默认是空。
 
+之后在bin目录下运行
+
+sh start.sh即可看到
+
+empty 0
+
+empty 1
+
+……
+
+这样的输出
 
 
 
