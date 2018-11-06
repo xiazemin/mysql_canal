@@ -1,0 +1,4 @@
+canal-kafka是把kafka作为客户端，嵌入到canal中，并且在canal基础上对源码进行了修改，以达到特定的实现canal到kafka的传送。
+
+canal-kafka是阿里云最近更新的一个新的安装包。主要功能是实现canal与kafka的对接，实现海量的消息传输同步。在canal-kafka中，消息是以ByteString进行传输的，并且用户只能通过配置来指定一些kafka的配置，从某种程度上有一定的局限性，所以我们使用canal来自定义客户端kafka，会有更好的灵活性，但维护成本会更大，所以如何选择根据实际情况而定。
+
