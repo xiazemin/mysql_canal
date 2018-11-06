@@ -22,3 +22,7 @@ sh bin/init.sh -p 3306 -h 127.0.0.1
 
 Can not find instance config file: /Users/didi/canal/client/bin/../conf/example/instance.properties
 
+$mkdir conf/example
+
+11:38:56-didi@bogon:~/canal/client$cp ../conf/example/instance.properties conf/example/
+
