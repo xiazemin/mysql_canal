@@ -56,3 +56,5 @@ topic: mytopic
 
 2018-11-06T06:29:32.772654Z 206 \[Note\] Start binlog\_dump to master\_thread\_id\(206\) slave\_server\(12345\), pos\(mysql-bin.000003, 4\)
 
+
+
