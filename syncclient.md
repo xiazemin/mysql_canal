@@ -66,5 +66,7 @@ wget  [https://github.com/sasou/syncClient/archive/1.1.2.zip](https://github.com
 
 Error: Unable to access jarfile syncClient.jar
 
+$java -jar bin/syncClient.jar
 
+Caused by: java.lang.NumberFormatException: For input string: "null"
 
