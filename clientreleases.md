@@ -46,5 +46,23 @@ mysql&gt; insert into xdual\(id,x\) values\(null,now\(\)\);
 
 Query OK, 1 row affected \(0.02 sec\)
 
+$  tail -f logs/example/entry.log
 
+================&gt; binlog\[mysql-bin.000003:14523\] , executeTime : 1541475018000\(2018-11-06 11:30:18\) , gtid : \(\) , delay : 623693ms
+
+================&gt; binlog\[mysql-bin.000003:15159\] , executeTime : 1541475847000\(2018-11-06 11:44:07\) , gtid : \(\) , delay : 824ms
+
+ BEGIN ----&gt; Thread id: 137
+
+----------------&gt; binlog\[mysql-bin.000003:15289\] , name\[test,xdual\] , eventType : INSERT , executeTime : 1541475847000\(2018-11-06 11:44:07\) , gtid : \(\) , delay : 824 ms
+
+ID : 137    type=int\(11\)    update=true
+
+X : 2018-11-06 11:44:07    type=timestamp    update=true
+
+----------------
+
+ END ----&gt; transaction id: 2115
+
+================&gt; binlog\[mysql-bin.000003:15333\] , executeTime : 1541475847000\(2018-11-06 11:44:07\) , gtid : \(\) , delay : 825ms
 
