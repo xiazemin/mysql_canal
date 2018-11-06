@@ -23,4 +23,5 @@
 * [o.s.beans.GenericTypeAwarePropertyDescriptor - Invalid JavaBean property 'connectionCharset' being accessed!](osbeansgenerictypeawarepropertydescriptor-invalid-javabean-property-connectioncharset-being-accessed.md)
 * [ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set](error-comalibabadruidpooldruiddatasource-testwhileidle-is-true-validationquery-not-set.md)
 * [syncClient，数据实时同步中间件（同步mysql到kafka、redis、elasticsearch、httpmq）！](syncclientff0c-shu-ju-shi-shi-tong-bu-zhong-jian-jian-ff08-tong-bu-mysql-dao-kafka-redis-elasticsearch-httpmq.md)
+* [Canal和Maxwell作为kafka source的区别](canalhe-maxwell-zuo-wei-kafka-source-de-qu-bie.md)
 
