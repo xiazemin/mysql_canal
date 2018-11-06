@@ -25,4 +25,5 @@
 * [syncClient，数据实时同步中间件（同步mysql到kafka、redis、elasticsearch、httpmq）！](syncclientff0c-shu-ju-shi-shi-tong-bu-zhong-jian-jian-ff08-tong-bu-mysql-dao-kafka-redis-elasticsearch-httpmq.md)
 * [Canal和Maxwell作为kafka source的区别](canalhe-maxwell-zuo-wei-kafka-source-de-qu-bie.md)
 * [syncClient](syncclient.md)
+* [canal.kafka-1.1.0.tar.gz](canalkafka-110targz.md)
 
