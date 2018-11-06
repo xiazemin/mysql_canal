@@ -98,5 +98,19 @@ empty 1
 
 这样的输出
 
+传入数据
 
+开启kafka,并启动另一个终端对mysql中对数据库中的表做修改（至于是不是必须是我们之前设置的canal.instance.defaultDatabaseName = test这个test数据库，还待进一步验证），修改后就可以在start.sh那个终端下看到变化了。如果有错误，请尝试关闭防火墙$ sudo ufw stop
+
+使用kafka查看变化
+
+如果想使用kafka查看数据库的变化，可以在启动消费者端查看
+
+$ cd \[the path to kafka\]
+
+$ bin/kafka-console-consumer.sh -zookeeper localhost:2181--from-beginning --topic 数据库名\_表名 \#比如你修改的是test数据下的user表，则此处topic为test\_user
+
+当然你也可以在kafka中查看是否有这个topic
+
+bin/kafka-topics.sh --list --zookeeper localhost:2181
 
