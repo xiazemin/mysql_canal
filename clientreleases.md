@@ -40,3 +40,11 @@ LOG CONFIGURATION : /Users/didi/canal/client/bin/../conf/logback.xml
 
 client mode : Simple
 
+测试
+
+mysql&gt; insert into xdual\(id,x\) values\(null,now\(\)\);
+
+Query OK, 1 row affected \(0.02 sec\)
+
+
+
