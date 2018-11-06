@@ -36,21 +36,19 @@ canal.zkServers=192.168.56.102:2181
 
 vim /usr/local/canal/conf/kafka.yml
 
-
-
 \#kafka地址
 
 servers: 192.168.56.101:9092
-
-
 
 \# canal的批次大小，单位 k
 
 canalBatchSize: 50
 
-
-
 \#topic
 
-    topic: mytopic
+topic: mytopic
+
+
+
+
 
