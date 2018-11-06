@@ -30,5 +30,5 @@ ls /otter/canal/destinations/example
 
 \[running, cluster\]
 
-
+~/kafka/server1/kafka\_2.10-0.8.2.1/bin$sh zookeeper-shell.sh 127.0.0.1:2181
 
