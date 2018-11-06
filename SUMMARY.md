@@ -26,4 +26,5 @@
 * [Canal和Maxwell作为kafka source的区别](canalhe-maxwell-zuo-wei-kafka-source-de-qu-bie.md)
 * [syncClient](syncclient.md)
 * [canal.kafka-1.1.0.tar.gz](canalkafka-110targz.md)
+* [go client](go-client.md)
 
