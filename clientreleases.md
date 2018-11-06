@@ -26,3 +26,13 @@ $mkdir conf/example
 
 11:38:56-didi@bogon:~/canal/client$cp ../conf/example/instance.properties conf/example/
 
+canal.instance.filter.black.regex=
+
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+
+
+Above is your instance config file, check if the settings are correct
+
+
+
