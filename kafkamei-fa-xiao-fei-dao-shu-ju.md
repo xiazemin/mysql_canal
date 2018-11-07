@@ -1,18 +1,26 @@
-       &lt;root level="INFO"&gt;
+```
+$vi conf/logback.xml
 
-                &lt;appender-ref ref="STDOUT"/&gt;
+      &lt;root level="WARN"&gt;
 
-                &lt;appender-ref ref="CANAL-ROOT" /&gt;
+            &lt;appender-ref ref="STDOUT"/&gt;
 
-        &lt;/root&gt;
+            &lt;appender-ref ref="CANAL-ROOT" /&gt;
+
+    &lt;/root&gt;
+```
 
 改成
 
-       &lt;root level="INFO"&gt;
+```
+   &lt;root level="INFO"&gt;
 
-                &lt;appender-ref ref="STDOUT"/&gt;
+            &lt;appender-ref ref="STDOUT"/&gt;
 
-                &lt;appender-ref ref="CANAL-ROOT" /&gt;
+            &lt;appender-ref ref="CANAL-ROOT" /&gt;
 
-        &lt;/root&gt;
+    &lt;/root&gt;
+```
+
+
 
