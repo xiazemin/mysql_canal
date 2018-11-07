@@ -28,4 +28,5 @@
 * [canal.kafka-1.1.0.tar.gz](canalkafka-110targz.md)
 * [go client](go-client.md)
 * [完整例子](wan-zheng-li-zi.md)
+* [kafka没法消费到数据](kafkamei-fa-xiao-fei-dao-shu-ju.md)
 
