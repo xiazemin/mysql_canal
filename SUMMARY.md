@@ -30,4 +30,5 @@
 * [完整例子](wan-zheng-li-zi.md)
 * [kafka没法消费到数据](kafkamei-fa-xiao-fei-dao-shu-ju.md)
 * [imply](imply.md)
+* [imply查询](implycha-xun.md)
 
